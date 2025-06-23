@@ -10,7 +10,7 @@ let app=express()
 let port=process.env.PORT || 4000
 connectDB()
 
-let allowedOrigins=['https://user-auth-client-seven.vercel.app/']
+let allowedOrigins=['https://user-auth-client-seven.vercel.app']
 
 app.use(express.json())
 app.use(cookieParser())
